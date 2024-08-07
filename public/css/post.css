@@ -1,0 +1,50 @@
+#post{
+	background: var(--main-color-four);
+	color: #000;
+	padding: 20px;
+}
+
+#post .form{
+	background: var(--main-color-two);
+	padding: 20px;
+	margin: 0px auto;
+	text-align: center;
+	width: 500px;
+}
+
+#post .form input{
+	margin: 10px 0px;
+}
+#post .form input[type="text"]{
+	padding: 10px 20px;
+	width: 70%;
+	box-sizing: border-box;
+	font-size: 20px;
+	border: none;
+	border-radius: 3px;
+}
+
+#post .form input[type="submit"]{
+	padding: 10px 20px;
+	background: var(--main-color);
+	border: none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+#post .form input[type="submit"]:hover{
+	background: rgba(255,255,255, 0.5);
+}
+
+#post .form input[type="file"]{
+	background: yellow;
+}
+
+@media only screen and (max-width: 600px){
+    #post .form{
+        box-sizing: border-box;
+        width: 100%;
+    }
+}

@@ -1,0 +1,206 @@
+
+/* ======================== notificacao css ======================== */
+
+.notif{
+    /*background: var(--main-color-four);*/
+    color: #000;
+    padding: 20px;
+    text-align: justify;
+    font-family: 'Armata', sans-serif;
+    width: 540px;
+    margin: 0px auto;
+}
+
+.notif ul{
+    list-style: none;
+}
+
+/* ================= notificao responsiva css =================*/
+
+
+@media only screen and (max-width:600px){
+    .notif{
+        box-sizing: border-box;
+        width: 100%;
+        font-size: 12px;
+    }
+}
+
+/* ======================== post css ======================== */
+#post{
+    /*background: var(--main-color-two);*/
+    padding: 20px;
+    width: 600px;
+    margin: 10px auto;
+}
+
+#post .img img{
+    width: 100%;
+    height: 800px;
+    margin-bottom: -4px;
+    border-radius: 20px;
+}
+
+#post .titulo{
+    background: var(--main-color-three);
+    width: 100%;
+    color: #000;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#post .publicacao{
+    background: var(--main-color-three);
+}
+
+#post .publicacao{
+    margin: 20px 10px;
+}
+
+/*#post .publicacao .comentarios{
+background: var(--main-color);
+color: #fff;
+width: 50%;
+}*/
+
+/* ================= post responsivo css =================*/
+
+
+@media only screen and (max-width:600px){
+    #post{
+        width: 100%;
+        padding: 0px;
+        font-size: 12px;
+    }
+
+    #post .img img{
+        height: 450px;
+    }
+}
+
+
+/* ======================== rodape do post ======================== */
+
+.avaliacao{
+    background: var(--main-color-three);
+    display: flex;
+    color: #fff;
+    padding: 10px 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.avaliacao .like, .avaliacao .deslike, .avaliacao .spam{
+    display: flex;
+    color: #000;
+}
+.avaliacao .label{
+    background: var(--main-color-five);
+    color: #000;
+    padding: 10px 5px;
+    margin: 5px 10px;
+    /*border: solid 1px var(--main-color-three);*/
+    border-radius: 3px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.avaliacao .value{
+    background: black;
+    color: #fff;
+    padding: 15px 5px;
+    margin: 5px 0px;
+    margin-left: -10px;
+    /*border: solid 1px var(--main-color-three);*/
+    border-left: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.avaliacao .like .label{
+    background: black;
+    color: #fff;
+}
+
+.avaliacao .deslike .label{
+    background: black;
+    color: #fff;
+}
+
+.avaliacao .spam .label{
+    background: black;
+    color: #fff;
+}
+
+.btn-proximo{
+    background: var(--main-color-two);
+    color: #fff;
+    width: 200px;
+    padding: 20px;
+    margin: 50px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-proximo:hover{
+    background: rgba(255, 0, 0, 0.3);
+}
+a{
+    text-decoration: none;
+}
+
+/* ================= css dos comentarios =================*/
+
+.abrir-comentarios{
+    margin: 20px 10px;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.coments{
+    background-color: var(--main-color-five);
+    color: #000;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.coment{
+    display: flex;
+    margin: 20px 10px;
+}
+
+.coments .coment .perfil img{
+    border-radius: 100%;
+}
+.coments .coment .content{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.social{
+    text-align: right;
+}
+
+.form-comentario{
+    margin-bottom: 50px;
+}
+
+.form-comentario textarea{
+    width:100%;
+    height:100px;
+}
+
+.form-comentario input{
+    background: var(--main-color-two);
+    color: #fff;
+    padding:5px 10px;
+    float: right;
+}
