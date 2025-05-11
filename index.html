@@ -10,15 +10,16 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
     integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
-  <title>Hello, world!</title>
+  <title>Obliterado Games</title>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg" id="menu-cor">
-    <a class="navbar-brand" href="#">Navbar</a>
+  
+  <nav class="navbar navbar-expand-lg navbar-light" id="menu-cor">
+    <a class="navbar-brand" href="#">Obliterado Games</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+      <span class="navbar-toggler-icon"><img src=""></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
@@ -26,45 +27,41 @@
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">redes sociais</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+          <a class="nav-link" href="#">sobre</a>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="card-group">
-  <script>
+
+  <h3 class="titulo_pagina">Jogos em desenvolvimento</h3>
+  <div class="card-group conteudo">
+    <script>
+
+      var titulos = [
+        {titulo:"Game Empilhadeira", descricao:"Jogo de empilhadeira", imagem:"img/forklift.png"},
+        {titulo:"Obliterado", descricao: "Jogo simulador de policia", imagem:"img/obliterado.png"},
+     ]
+
+      for (var i = 0; i < titulos.length; i++) {
+        document.write('<div class="card card_personalizado" style="width: 18rem;">' +
+          '<img src="' + titulos[i].imagem + '" class="card-img-top" alt="...">' +
+          '<div class="card-body">' +
+          '<p class="card-text">' + titulos[i].descricao + '</p>' +
+          '</div>' +
+          '</div>');
+      }
+
+    </script>
     
-    var titulos = ["Game de empilhadeira",
-      "Game de policia",
-      "Game outro"
-    ]
-    for(var i =0 ; i < 3; i++){
-  
-    document.write('<div class="card" style="width: 18rem;">'+
-    '<img src="img/forklift.PNG" class="card-img-top" alt="...">'+
-    '<div class="card-body">'+
-    '<p class="card-text">'+titulos[i]+'</p>'+
-    '</div>'+
-    '</div>');
-
-
-}
-
-</script>
-</div>
+  </div>
+    <hr>
+  <footer class="rodape">
+    <span class="copy">&copy; obliterado games</span>
+    <span class="copy"> Author: Lucas Silva</span>
+  </footer>
   <!-- Optional JavaScript; choose one of the two! -->
 
   <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->

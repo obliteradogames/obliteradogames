@@ -1,7 +1,37 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
 #menu-cor{
-    background-color: rgb(222, 140, 47);
+    background-color: rgb(255, 162, 49);
 }
 
 #menu-cor a{
     color:black;
+}
+
+.conteudo{
+    margin:5px;
+    /*display:flex;*/
+}
+
+.card_personalizado{
+    margin:10px; 
+}
+
+.copy{
+    display: block;
+    text-align: center;
+}
+
+.rodape{
+    background-color: black;
+    color: white;
+    padding:10%;
+    padding-bottom: 100%;
+}
+
+.titulo_pagina{
+    text-align: center;
+    margin: 50px;
+    font-family: sans-serif;
 }
