@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255, 255, 255);
+     background-color: rgb(255, 162, 49);
 }
 #menu-cor{
     background-color: rgb(255, 162, 49);
@@ -16,6 +16,7 @@ body{
 
 .card_personalizado{
     margin:10px; 
+     background-color: rgb(255, 157, 37);
 }
 
 .copy{
