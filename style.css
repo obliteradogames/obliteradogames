@@ -1,12 +1,17 @@
 body{
-     background-color: rgb(255, 162, 49);
+     background-color: rgb(255, 255, 255);
 }
+
 #menu-cor{
-    background-color: rgb(255, 162, 49);
+    background-color: rgb(5, 55, 113);
+    border-bottom-color: rgb(19, 0, 90);
+    border-bottom-style: solid;
+    border-bottom-width: 10px;
+    
 }
 
 #menu-cor a{
-    color:black;
+    color:rgb(255, 255, 255);
 }
 
 .conteudo{
@@ -16,7 +21,7 @@ body{
 
 .card_personalizado{
     margin:10px; 
-     background-color: rgb(255, 157, 37);
+     background-color: rgb(239, 239, 239);
 }
 
 .copy{
